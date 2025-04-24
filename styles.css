@@ -517,3 +517,13 @@ nav {
     box-shadow: 0 0 25px rgba(0, 243, 255, 0.4);
 }
 
+/* Afegeix això a styles.css */
+.error-message {
+    color: var(--accent-red); /* O un color que prefereixis per als errors */
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.3rem;
+    min-height: 1em; /* Evita salts de layout */
+    visibility: hidden; /* Ocult per defecte */
+}
+
